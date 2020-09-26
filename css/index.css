@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a, a:visited, a:link{
+    text-decoration: none;
+    color: #3F2803;
+}
+a:hover{
+    color: #80B500;
+}
+
+/******************************** Header Starts Here **********************/
+.header{
+    padding: 1em 7em;
+    background-color: #f2f5f8;
+    height: 16px;
+}
+.header ul{
+    margin-top: -1em;
+    float: right;
+    padding-right: 17em;
+    display: flex;
+}
+.header ul{
+    margin-top: -1em;
+    float: right;
+    padding-right: 7em;
+    display: flex;
+}
+.header li{
+    padding-right: 1em;
+}
+/******************************** Header Ends Here **********************/
+
+/******************************** Navbar Starts Here **********************/
+.navbar ul li{
+    margin-top: 1.3em;
+    margin-right: 2em;
+    display: flex;
+    display: inline-block;
+    
+}
+.navbar img{
+    margin-top: -1em;
+    height: 6em;
+    margin-left: 7em;
+}
+.navbar ul{
+    padding-top: 1em;
+    float: right;
+    display: flex;
+    margin-right: 5em;
+}
+.navbar{
+    background-color: darkgoldenrod;
+    height: 8em;
+    padding-top: 2em;
+    
+}
+/******************************** Navbar Ends Here **********************/
+
+
+/******************************** All Posts Starts Here **********************/
+.all{
+
+    padding: 2em 5em;
+    height: 3em;
+    background-color: #f0f0f0;
+    padding-left: 7em;
+}
+.all div{
+    float: right;
+    margin-top: -1.7em;
+}
+/******************************** All Posts Ends Here **********************/
+
+
+ /******************************** left Column Starts Here **********************/
+.column:nth-child(1){
+    float: left;
+    width: 65%;
+    padding: 10px;
+    margin-left: -1em;
+    /* background-color: springgreen; */
+
+}
+.column:nth-child(1) img{
+    padding-left: 9.5em;
+    padding-top: 3em;
+    height: 400px;
+    width: 750px;
+}
+/******************************** left Column Ends Here **********************/
+
+/******************************** Right Column 1st Element Starts Here **********************/
+
+.column:nth-child(2) ul{
+    list-style: none;
+    padding-left: 3em;
+}
+.column:nth-child(2) ul li{
+    padding-top: 10px;
+    
+}
+.column:nth-child(2){
+    float: right;
+    width: 34%;
+    /* background-color: steelblue; */
+    border-left: 1px solid grey;
+   
+}
+.column:nth-child(2) h2{
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column:nth-child(2) hr{
+    margin-left: 3em;
+    width: 75%;
+    margin-top: 3em;
+}
+/******************************** Right Column 1st Element Ends Here **********************/
+
+
+
+/******************************** Search Box Starts Here **********************/
+
+.search-box{
+    
+    box-sizing: border-box;
+}
+.search-box input{
+    margin-left: 3em;
+    margin-top: 3em;
+    padding:10px;
+    font-size: 18px;
+    border: 1px solid #8a8a8a;
+    width: 35%;
+    background: #f1f1f1;
+}
+.search-box button{
+    margin-right: 7em;
+    margin-top: 3em;
+    margin-left: 3px;
+    border-radius: 9px;
+    width: 18%;
+    padding: 10px;
+    background-color: #80B500;
+    color: white;
+    font-size: 18px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.search-box button:hover{
+    background: maroon;
+    color: white;
+}
+.search-box::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/******************************** Search Box Ends Here **********************/
+
+
+/******************************** Recent Comments div Starts Here **********************/
+
+.comments a{
+    color: #3F2803;
+}
+.comments a:hover{
+    color: #80B500;
+}
+.comments ul li{
+    color: #8a8a8a;
+    margin-right: 7em;
+}
+/******************************** Recent Comments div Ends Here **********************/
+
+
+
+
+.recent-post img{
+    width: 80px;
+    height: 80px;
+    padding-right: 1em;
+}
+.recent-post a{
+    position: absolute;
+}
+
+
+
+.text-widget p{
+    margin-left: 3em;
+    margin-right: 7em;
+}
