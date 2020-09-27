@@ -61,6 +61,7 @@ a:hover{
 /******************************** Navbar Ends Here **********************/
 
 
+
 /******************************** All Posts Starts Here **********************/
 .all{
 
@@ -90,6 +91,40 @@ a:hover{
     padding-top: 3em;
     height: 400px;
     width: 750px;
+}
+.column:nth-child(1) h2{
+    padding-left: 6.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.column:nth-child(1) span{
+    padding-left: 9.7em;
+    color: #8a8a8a;
+}
+.column:nth-child(1) i{
+    padding-left: 10px;
+    color: #80B500;
+}
+.column:nth-child(1) p{
+    padding-left:  9.7em;
+    padding-top: 1em;
+    color: #555555;
+}
+.column:nth-child(1) button{
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color:  #f1f1f1 ;
+    border: none;
+    margin-left:  15.3em;
+    margin-top: 1.5em;
+    background-color: #80b500;
+    color: white;
+    font-size: 10px;
+}
+.column:nth-child(1) hr{
+    margin-left: 9.4em;
+    width: 80%;
+    margin-top: 3em;
 }
 /******************************** left Column Ends Here **********************/
 
@@ -127,7 +162,15 @@ a:hover{
 }
 /******************************** Right Column 1st Element Ends Here **********************/
 
-
+.dropdown .custom-select {
+    margin-left:3em;
+}
+.dropdown .custom-select select{
+    padding:10px;
+    width: 50%;
+    background-color:  #f1f1f1 ;
+    border: none;
+}
 
 /******************************** Search Box Starts Here **********************/
 
@@ -201,3 +244,27 @@ a:hover{
     margin-left: 3em;
     margin-right: 7em;
 }
+
+
+
+.tags{
+    width: 65%;
+}
+.tags ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.tags button{
+    border-radius: 4px;
+    padding: 10px;
+    background-color:  #f1f1f1 ;
+    border: none;
+}
+.tags button:hover{
+    background-color: #80B500;  
+}
+.tags a:hover{
+    color: white;
+}
+
