@@ -2,270 +2,273 @@
     margin: 0;
     padding: 0;
 }
-a, a:visited, a:link{
-    text-decoration: none;
-    color: #3F2803;
-}
-a:hover{
-    color: #80B500;
-}
-
-/******************************** Header Starts Here **********************/
-.header{
-    padding: 1em 7em;
-    background-color: #f2f5f8;
-    height: 16px;
-}
-.header ul{
-    margin-top: -1em;
-    float: right;
-    padding-right: 17em;
+ .navbar ul li {
     display: flex;
-}
-.header ul{
-    margin-top: -1em;
-    float: right;
-    padding-right: 7em;
-    display: flex;
-}
-.header li{
-    padding-right: 1em;
-}
-/******************************** Header Ends Here **********************/
-
-/******************************** Navbar Starts Here **********************/
-.navbar ul li{
-    margin-top: 1.3em;
-    margin-right: 2em;
-    display: flex;
-    display: inline-block;
-    
-}
-.navbar img{
-    margin-top: -1em;
-    height: 6em;
-    margin-left: 7em;
+    margin-left: 2em;
 }
 .navbar ul{
-    padding-top: 1em;
+    margin-top: 1em;
     float: right;
     display: flex;
-    margin-right: 5em;
-}
-.navbar{
-    background-color: darkgoldenrod;
-    height: 8em;
-    padding-top: 2em;
-    
-}
-/******************************** Navbar Ends Here **********************/
-
-
-
-/******************************** All Posts Starts Here **********************/
-.all{
-
-    padding: 2em 5em;
-    height: 3em;
-    background-color: #f0f0f0;
-    padding-left: 7em;
-}
-.all div{
-    float: right;
-    margin-top: -1.7em;
-}
-/******************************** All Posts Ends Here **********************/
-
-
- /******************************** left Column Starts Here **********************/
-.column:nth-child(1){
-    float: left;
-    width: 65%;
-    padding: 10px;
-    margin-left: -1em;
-    /* background-color: springgreen; */
-
-}
-.column:nth-child(1) img{
-    padding-left: 9.5em;
-    padding-top: 3em;
-    height: 400px;
-    width: 750px;
-}
-.column:nth-child(1) h2{
-    padding-left: 6.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-.column:nth-child(1) span{
-    padding-left: 9.7em;
-    color: #8a8a8a;
-}
-.column:nth-child(1) i{
-    padding-left: 10px;
-    color: #80B500;
-}
-.column:nth-child(1) p{
-    padding-left:  9.7em;
-    padding-top: 1em;
-    color: #555555;
-}
-.column:nth-child(1) button{
-    border-radius: 4px;
-    padding: 10px 15px;
-    background-color:  #f1f1f1 ;
-    border: none;
-    margin-left:  15.3em;
-    margin-top: 1.5em;
-    background-color: #80b500;
-    color: white;
-    font-size: 10px;
-}
-.column:nth-child(1) hr{
-    margin-left: 9.4em;
-    width: 80%;
-    margin-top: 3em;
-    margin-top: 3em;
-}
-/******************************** left Column Ends Here **********************/
-
-/******************************** Right Column 1st Element Starts Here **********************/
-
-.column:nth-child(2) ul{
-    list-style: none;
-    padding-left: 3em;
-}
-.column:nth-child(2) ul li{
-    padding-top: 10px;
-    
-}
-.column:nth-child(2){
-    float: right;
-    width: 34%;
-    /* background-color: steelblue; */
-    border-left: 1px solid grey;
+    margin-right: 1em;
    
 }
-.column:nth-child(2) h2{
-    padding-left: 2em;
-    padding-top: 2em;
-    padding-bottom: 1em;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.column:nth-child(2) hr{
-    margin-left: 3em;
-    width: 75%;
-    margin-top: 3em;
-}
-/******************************** Right Column 1st Element Ends Here **********************/
 
-.dropdown .custom-select {
-    margin-left:3em;
-}
-.dropdown .custom-select select{
-    padding:10px;
-    width: 50%;
-    background-color:  #f1f1f1 ;
-    border: none;
-}
-
-/******************************** Search Box Starts Here **********************/
-
-.search-box{
+a, a:visited, a:link{
+    text-decoration: none;
+    color: black;
     
+}
+a:hover{
+    color: green;
+}
+.navbar{
+    padding :2em 15em 2em 15em;
+     height: 5em;
+      /* background-color: peru; */
+  }
+  .navbar img{
+      margin-top: -1.5em;
+      margin-left: 2em;
+  }
+
+  .top{
+      padding: 1em 21em 1em 18em;
+      font-size: 0.95em;
+      background-color: #f2f5f8;
+      
+  }
+  .top div{
+      float: right;
+  }
+.top div span{
+    margin-left: 0.5em;
+}
+
+
+  
+  .allpost{
+      background-color: #f0f0f0;
+      height: 8em;
+      
+  }
+  .allpost h1{
+      padding-left: 8em;
+      font-weight: bold;
+      padding-top: 1.5em;
+      padding-bottom: 0.5em;
+  }
+.allpost div{
+    float: right;
+    padding-right: 16em;
+    margin-top: -2.6em;
+}
+
+.col1{
+    padding: 10px 0px 10px 10px;
+    width: 60%;
+    /* background-color: cadetblue; */
+    float: left;
+    
+}
+
+
+.col1 img{
+    width: 870px;
+    height: 490px;
+    padding-left: 16em;
+    padding-top: 3em;
+}
+
+
+/* -------------------col2 all css starts here --------------------- */
+
+.col2{
+    /* background-color: aqua; */
+   width: 39%;
+   float: right;
+   /* background-color: blueviolet; */
+   border-left: 0.5px solid black;
+   
+   margin-top: -574em;
+   
+}
+
+.col2  ul li {
+    padding-left: 3em;
+    padding-top: 1em;
+    
+}
+.col2 a:hover{
+    color: green;
+}
+.col2 a{
+    color: #3F2803;
+}
+.col2 i{
+    padding-right: 10px;
+}
+
+.col2 h2{
+    color: #3F2803;
+    padding-left: 2em;
+    padding-top: 0.9em;
+    padding-bottom: 15px;
+}
+.col2 hr{
+    margin-left: 3em;
+    margin-top: 2em;
+    width: 60%;
+}
+/* ---------------------col2 css ends here------------------- */
+.search-box{
     box-sizing: border-box;
 }
 .search-box input{
-    margin-left: 3em;
-    margin-top: 3em;
-    padding:10px;
-    font-size: 18px;
-    border: 1px solid #8a8a8a;
-    width: 35%;
-    background: #f1f1f1;
+    width: 16em;
+    margin-left: 4em;
+    padding: 13px;
+    border: 1px solid gray;
+    color: #4c4841;
+    background: #ece9e9;
+    border-radius: 5px;
 }
 .search-box button{
-    margin-right: 7em;
     margin-top: 3em;
-    margin-left: 3px;
-    border-radius: 9px;
+    margin-left: 1em;
+    border-radius: 4px;
     width: 18%;
     padding: 10px;
-    background-color: #80B500;
     color: white;
-    font-size: 18px;
-    border: 1px solid grey;
+    background-color: #80b500;
+    font-size: 15px;
+    border: 1px solid gray;
     cursor: pointer;
 }
 .search-box button:hover{
-    background: maroon;
-    color: white;
+    background-color: maroon;
 }
-.search-box::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-/******************************** Search Box Ends Here **********************/
 
-
-/******************************** Recent Comments div Starts Here **********************/
-
-.comments a{
-    color: #3F2803;
-}
-.comments a:hover{
-    color: #80B500;
-}
-.comments ul li{
-    color: #8a8a8a;
-    margin-right: 7em;
-}
-/******************************** Recent Comments div Ends Here **********************/
-
-
-
-
-.recent-post img{
-    width: 80px;
-    height: 80px;
-    padding-right: 1em;
-}
 .recent-post a{
     position: absolute;
+    padding-left: 1em;
 }
-
-
-
-.text-widget p{
+.recent-post h6{
+    font-size: 0.9em;
+}
+.calendar iframe{
     margin-left: 3em;
-    margin-right: 7em;
+}
+.text-widget p{
+    color: #555555;
+    width: 23em;
+    margin-left: 3em;
 }
 
-
-
-.tags{
-    width: 65%;
-}
-.tags ul li{
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 10px;
+.tags {
+    margin-left: 3em;
+    width: 45%;
 }
 .tags button{
-    border-radius: 4px;
-    padding: 10px;
-    background-color:  #f1f1f1 ;
-    border: none;
+    background-color: #f2f5f8;
+    outline: none;
+    color: #4c4841;
+    width: 6em;
+    height: 3em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 6px;
+    border: 1px solid gray;
+    background-color: ;
 }
 .tags button:hover{
-    background-color: #80B500;  
+    background-color: #80b500;
 }
-.tags a:hover{
-    color: white;
+.custom-select select{
+    width: 16em;
+    margin-left: 4em;
+    padding: 9px;
+    border: 1px solid gray;
+    color: #4c4841;
+    background: #ece9e9;
+    border-radius: 5px;
 }
 
+
+
+
+/* ----------------------column1 starts here---------------- */
+.col1 h2{
+    padding: 10px;
+    margin-top: 1em;
+    margin-left: 10.5em;
+}
+.col1 h2 a{
+    color: #3F2803;
+}
+.col1 a:hover{
+    color: green;
+}
+.col1 h5{
+    margin-top: 1em;
+    margin-left: 20em;
+}
+.col1  h5 a{
+    color: #8a8a8a;
+    margin-right: 1em;
+}
+.col1 i{
+    color: green;
+}
+.col1 i:hover{
+    color: maroon;
+}
+.Readbutton{
+    margin-left: 20em;
+    margin-top: 1em;
+    color: #ffffff;
+    border: 1px solid gray;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: #80b500;
+}
+.col1 p{
+    margin-left: 16.5em;
+    margin-top: 2em;
+    color: #555555;
+}
+.col1 hr{
+    margin-left: 15em;
+    margin-top: 5em;
+    width: 10em;
+}
+.bottom-but{
+    margin-top: 3em;
+margin-left: 30em;
+
+}
+.bottom{
+    padding: 10px;
+    margin-left: 1em;
+    border-radius: 50%;
+    border: 0.1px solid gray;
+    height: 50px;
+    width: 50px;
+    
+}
+.bottom:nth-child(1){
+    background-color: #80b500;
+    color: #ffffff;
+}
+.bottom:hover{
+    background-color: #80b500;
+    color: #ffffff;
+}
+ .newhr{
+     
+    width: 60em;
+    margin-left: 45em;
+}
+.row1{
+    margin-top: 5em;
+}
